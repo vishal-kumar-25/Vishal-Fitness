@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 80vm ;
+   
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    height: 67px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #ffffff;
+}
+
+.font {
+    font-family: fantasy;
+}
+
+
+.navbar li {
+    list-style: none;
+    margin: 0 12px;
+ 
+}
+.navbar li:hover {
+    color: rgb(13, 120, 241);
+}
+
+.hero-section{
+    background-image: url(hero-image.jpg);
+    background-size: cover;
+    height : 600px ;
+    display: flex;
+    justify-content : center;
+    align-items: flex-end ;
+
+}
+
+.btn{
+    background-color: rgb(11, 135, 250);
+    color: white;
+}
+
+
+
+.toggle-btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.toggle-btn:hover {
+        color: rgb(13, 120, 241);
+}
+.pricing-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.pricing-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
+
+.price {
+    font-size: 1.5em;
+    color: #333;
+}
+.footer{
+    margin-top:50px;
+}
+.foot-panel1{
+    background-color:#37475a;
+    color:white ;
+    height:50px ;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    font-size:0.85rem;
+
+}
+
+.foot-panel2{
+    background-color: #222f3d;
+    color:white;
+    height:300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.foot-panel3{
+    background-color: #222f3d;
+    color:white;
+    border-top:0.5px solid rgb(122, 140, 141); 
+    height:70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot-panel4{
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    font-size:0.7rem;
+    text-align: center;
+      
+}
+
+.my-1{
+    height: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}

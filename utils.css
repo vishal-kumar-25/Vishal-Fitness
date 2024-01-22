@@ -1,0 +1,69 @@
+.min-h-screen{
+    min-height: 100vh;
+}
+
+
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flex{
+    display: flex ;
+}
+
+.items-center{
+    align-items: center;
+}
+
+.justify-center{
+    justify-content: center;
+}
+.flex-col{
+    flex-direction: column;
+}
+
+.font-bold{
+    font-weight: bold;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+.border:hover{
+    border: 1.5px solid rgb(14, 132, 243);
+}
+
+.pricing-card {
+    background-color: blanchedalmond;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
